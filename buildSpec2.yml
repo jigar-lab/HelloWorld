@@ -11,7 +11,7 @@ phases:
     commands:
       - echo 'Compiling the Java Code'
       - javac -cp . HelloWorld.java
-      - sleep 240
+      - sleep 180
   post_build:
     commands:
       - echo "Would deploy here"
